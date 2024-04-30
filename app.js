@@ -8,6 +8,8 @@ const fileUpload = require('express-fileupload');
 var indexRouter = require('./routes/index');
 var picturesRouter = require('./routes/pictures');
 
+const port = process.env.PORT || 3000
+
 var app = express();
 
 // view engine setup
